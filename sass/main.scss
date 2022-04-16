@@ -31,12 +31,44 @@ body {
     }
 }
 
-.block {
-    display: flex;
-    border: 1px solid var(--color-theme2);
-    background-color: var(--color-secondary);
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-h2 {
-    color: var(--color-theme2);
+.info-section {
+    display: flex;
+    align-content: center;
+    max-height: 511px;
+    border: 1px solid var(--color-theme2);
+    background-color: var(--color-secondary);
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-right: 1px solid var(--color-theme2);
+        padding: 0px 48px 0px 65px;
+
+        h2 {
+            font-size: 54px;
+            font-weight: 400;
+            line-height: 77px;
+            margin: 0px;
+            color: var(--color-theme2);
+        }
+
+        p {
+            font-size: 24px;
+            line-height: 36px;
+            margin: 0px;
+            padding-top: 27px;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    img {
+        width: 400px;
+    }
 }
