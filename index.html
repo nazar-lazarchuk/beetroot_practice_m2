@@ -6,8 +6,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="/dist/main.css" />
+        <style>
+            #map {
+                height: 400px;
+                width: 100%;
+            }
+        </style>
     </head>
     <body>
+        <!--  MAP -->
+        <section class="footer">
+            <span class="footer__header"> Come See Us </span>
+            <div class="line"></div>
+
+            <div class="footer__location">
+                <div class="footer__location--city">
+                    <h2>NEW YORK</h2>
+                    <h4>646-394-3920</h4>
+                    <span>
+                        4096 Grove Street
+                    </span>
+                    <span>
+                        Farmingdale, NY 11735
+                    </span>
+                </div>
+                <div class="footer__location--city">
+                    <h2>CHICAGO</h2>
+                    <h4>773-898-3028</h4>
+                    <span>
+                        1243 Virginia Street
+                    </span>
+                    <span>
+                        Chicago, IL 60629
+                    </span>
+                </div>
+                <div id="map"></div>
+            </div>
+
+            <span class="footer__end_text">© 2022 by The Magic Slab.</span>
+        </section>
+
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyzlUxLvooGgoaKPQcCAImzp-X4_gzJDQ
+        &callback=initMap&libraries=&v=weekly"
+            defer
+        ></script>
         <script src="/main.js"></script>
     </body>
 </html>
