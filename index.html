@@ -16,34 +16,27 @@
     <body>
         <!--  MAP -->
         <section class="footer">
-            <span class="footer__header"> Come See Us </span>
-            <div class="line"></div>
+            <div class="footer__content">
+                <span class="footer__header"> Come See Us </span>
+                <div class="line"></div>
 
-            <div class="footer__location">
-                <div class="footer__location--city">
-                    <h2>NEW YORK</h2>
-                    <h4>646-394-3920</h4>
-                    <span>
-                        4096 Grove Street
-                    </span>
-                    <span>
-                        Farmingdale, NY 11735
-                    </span>
-                </div>
-                <div class="footer__location--city">
-                    <h2>CHICAGO</h2>
-                    <h4>773-898-3028</h4>
-                    <span>
-                        1243 Virginia Street
-                    </span>
-                    <span>
-                        Chicago, IL 60629
-                    </span>
+                <div class="footer__location">
+                    <div class="footer__location--city">
+                        <h2>NEW YORK</h2>
+                        <h4>646-394-3920</h4>
+                        <span> 4096 Grove Street </span> <br />
+                        <span> Farmingdale, NY 11735 </span>
+                    </div>
+                    <div class="footer__location--city">
+                        <h2>CHICAGO</h2>
+                        <h4>773-898-3028</h4>
+                        <span> 1243 Virginia Street </span> <br />
+                        <span> Chicago, IL 60629 </span>
+                    </div>
                 </div>
                 <div id="map"></div>
+                <span class="footer__ending">© 2022 by The Magic Slab.</span>
             </div>
-
-            <span class="footer__end_text">© 2022 by The Magic Slab.</span>
         </section>
 
         <script
@@ -51,6 +44,6 @@
         &callback=initMap&libraries=&v=weekly"
             defer
         ></script>
-        <script src="/main.js"></script>
+        <script src="/main.js" defer></script>
     </body>
 </html>
