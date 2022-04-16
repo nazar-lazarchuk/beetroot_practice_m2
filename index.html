@@ -5,9 +5,44 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+        />
         <link rel="stylesheet" href="/dist/main.css" />
+        
     </head>
     <body>
+        <div class="swiper">
+            <h2 class="themagicslab">
+                @THEMAGICSLAB 
+            </h2>
+            <p class="magic_text_content">
+                Put the magic in your feed and follow us on Instagram for updates into our creamy world!  
+            </p>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="/assetsSwiper/icecream.png" alt=""></div>
+                <div class="swiper-slide"><img src="/assetsSwiper/icecream_chocolate.png" alt=""></div>
+                <div class="swiper-slide"><img src="/assetsSwiper/eating_icecream.png" alt=""></div>
+                <div class="swiper-slide"><img src="/assetsSwiper/icecream_chocolate.png" alt=""></div>
+                <div class="swiper-slide"><img src="/assetsSwiper/icecream.png" alt=""></div>
+                <div class="swiper-slide"><img src="/assetsSwiper/eating_icecream.png" alt=""></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"><img src="/assetsSwiper/Frame.png" alt=""></div>
+            <div class="swiper-button-next"><img src="/assetsSwiper/Frame.png" alt=""></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
         <script src="/main.js"></script>
     </body>
 </html>

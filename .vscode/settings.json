@@ -7,5 +7,6 @@
         }
     ],
     "prettier.tabWidth": 4,
-    "prettier.endOfLine": "crlf"
+    "prettier.endOfLine": "crlf",
+    "liveServer.settings.port": 5504
 }
