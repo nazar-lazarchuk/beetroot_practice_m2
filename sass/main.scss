@@ -31,6 +31,7 @@ body {
 }
 
 .swiper {
+    height: 1027px;
     width: 100%;
     background-color: #CC2A41;
     text-align: center;
@@ -38,23 +39,43 @@ body {
   }
 
 .themagicslab {
+    padding-top: 112px;
+    font-family: 'Roboto', sans-serif;
     font-size: 112px;
     line-height: 168px;
     color:#ECE9E9;
     margin: 0 auto;
 }
 .magic_text_content {
+    padding-top: 25px;
+    padding-bottom: 80px;
+    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     align-items: center;
     max-width: 800px;
     font-size: 24px;
     line-height: 36px;
+    min-height: 72px;
     color: #ECE9E9;
 }
 
-.swiper-button-prev {
-    background-color: white;
+
+.icecream-btn-left {
+    height: 45px;
+    width: 45px;
+    margin-left: 85px;
+    margin-top: 630px;
+    margin-bottom: 352px;
 }
+
+.icecream-btn-right {
+    height: 45px;
+    width: 45px;
+    margin-right: 85px;
+    margin-top: 630px;
+    margin-bottom: 352px;
+}
+
   .swiper-button-prev::after {
       display: none;
   }
@@ -62,3 +83,9 @@ body {
   .swiper-button-next::after {
       display: none;
   }
+
+.swiper-pagination-bullet {
+   background-color: #fff;
+   border-radius: 0%;
+}
+
