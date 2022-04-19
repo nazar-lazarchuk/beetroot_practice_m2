@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 :root {
-    --color-theme1: #FEC77E;
-    --color-theme2: #CC2A41;
+    --color-theme1: #fec77e;
+    --color-theme2: #cc2a41;
     --color-primary-text: #000;
-    --color-secondary: #ECE9E9;
+    --color-secondary: #ece9e9;
 }
 
 html,
@@ -33,32 +33,31 @@ body {
 .swiper {
     height: 1027px;
     width: 100%;
-    background-color: #CC2A41;
+    background-color: #cc2a41;
     text-align: center;
     align-items: center;
-  }
+}
 
 .themagicslab {
     padding-top: 112px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 112px;
     line-height: 168px;
-    color:#ECE9E9;
+    color: #ece9e9;
     margin: 0 auto;
 }
 .magic_text_content {
     padding-top: 25px;
     padding-bottom: 80px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0 auto;
     align-items: center;
     max-width: 800px;
     font-size: 24px;
     line-height: 36px;
     min-height: 72px;
-    color: #ECE9E9;
+    color: #ece9e9;
 }
-
 
 .icecream-btn-left {
     height: 45px;
@@ -75,17 +74,13 @@ body {
     margin-top: 630px;
     margin-bottom: 352px;
 }
-
-  .swiper-button-prev::after {
-      display: none;
-  }
-
-  .swiper-button-next::after {
-      display: none;
-  }
-
-.swiper-pagination-bullet {
-   background-color: #fff;
-   border-radius: 0%;
+.swiper-button-prev::after {
+    display: none;
 }
-
+.swiper-button-next::after {
+    display: none;
+}
+.swiper-pagination-bullet {
+    background-color: #fff;
+    border-radius: 0%;
+}
