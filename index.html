@@ -14,6 +14,10 @@
     </head>
 
     <body>
+
+
+
+
         <div class="container">
             <header class="main-header">
                 <ul class="main-header__menu">
@@ -136,8 +140,38 @@
                 />
             </div>
         </div>
+      
+                <!--  MAP -->
+        <section class="footer">
+            <div class="footer__content">
+                <span class="footer__header"> Come See Us </span>
+                <div class="line"></div>
+
+                <div class="footer__location">
+                    <div class="footer__location--city">
+                        <h2>NEW YORK</h2>
+                        <h4>646-394-3920</h4>
+                        <span> 4096 Grove Street </span> <br />
+                        <span> Farmingdale, NY 11735 </span>
+                    </div>
+                    <div class="footer__location--city">
+                        <h2>CHICAGO</h2>
+                        <h4>773-898-3028</h4>
+                        <span> 1243 Virginia Street </span> <br />
+                        <span> Chicago, IL 60629 </span>
+                    </div>
+                </div>
+                <div id="map"></div>
+                <span class="footer__ending">© 2022 by The Magic Slab.</span>
+            </div>
+        </section>
+      
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+                <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyzlUxLvooGgoaKPQcCAImzp-X4_gzJDQ
+        &callback=initMap&libraries=&v=weekly"
+            defer>
         <script src="/main.js"></script>
     </body>
 </html>
