@@ -18,6 +18,12 @@ body {
     background-color: var(--color-secondary);
 }
 
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .paragraph {
     font-size: 24px;
     line-height: 36px;
@@ -31,6 +37,51 @@ body {
     }
 }
 
+.main-header {
+    padding: 0 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-theme1);
+    border-bottom: 1px solid var(--color-primary-text);
+
+    &__menu {
+        margin: 0;
+        display: flex;
+        list-style: none;
+
+        li {
+            margin-left: 23px;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 29px;
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+
+    &__title {
+        margin: 0;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 120px;
+        color: var(--color-theme2);
+    }
+
+    &__action {
+        padding: 14px 24px;
+        border-radius: 10px;
+        background: var(--color-theme2);
+        color: var(--color-secondary);
+        font-weight: 700;
+        font-size: 16px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+    }
+}
 .swiper {
     height: 1027px;
     width: 100%;
